@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{DDA6C1B3-DB08-47D8-8693-BF850FC5773C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{5644D397-C1F5-4BB4-ADE8-889173709EFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Damoim.Api", "Damoim.Api\Damoim.Api.csproj", "{4A54BA00-0975-4E3C-9649-68B6581018F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Damoim.Application", "Damoim.Application\Damoim.Application.csproj", "{0BF07285-0A1A-4A91-8025-433B53635412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Damoim.Domain", "Damoim.Domain\Damoim.Domain.csproj", "{B1EAD77E-5384-4F8D-80FA-DCA626CFCAB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Damoim.Infrastructure", "Damoim.Infrastructure\Damoim.Infrastructure.csproj", "{67380716-3A92-4FBC-ACD0-DB779597E140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Damoim.Client", "Damoim.Client\Damoim.Client.csproj", "{54651684-8E7B-4DAB-8890-058D0CC5CAE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A54BA00-0975-4E3C-9649-68B6581018F4} = {DDA6C1B3-DB08-47D8-8693-BF850FC5773C}
+		{0BF07285-0A1A-4A91-8025-433B53635412} = {DDA6C1B3-DB08-47D8-8693-BF850FC5773C}
+		{B1EAD77E-5384-4F8D-80FA-DCA626CFCAB4} = {DDA6C1B3-DB08-47D8-8693-BF850FC5773C}
+		{67380716-3A92-4FBC-ACD0-DB779597E140} = {DDA6C1B3-DB08-47D8-8693-BF850FC5773C}
+		{54651684-8E7B-4DAB-8890-058D0CC5CAE7} = {5644D397-C1F5-4BB4-ADE8-889173709EFB}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A54BA00-0975-4E3C-9649-68B6581018F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A54BA00-0975-4E3C-9649-68B6581018F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A54BA00-0975-4E3C-9649-68B6581018F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A54BA00-0975-4E3C-9649-68B6581018F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF07285-0A1A-4A91-8025-433B53635412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF07285-0A1A-4A91-8025-433B53635412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF07285-0A1A-4A91-8025-433B53635412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF07285-0A1A-4A91-8025-433B53635412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EAD77E-5384-4F8D-80FA-DCA626CFCAB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EAD77E-5384-4F8D-80FA-DCA626CFCAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EAD77E-5384-4F8D-80FA-DCA626CFCAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EAD77E-5384-4F8D-80FA-DCA626CFCAB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67380716-3A92-4FBC-ACD0-DB779597E140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67380716-3A92-4FBC-ACD0-DB779597E140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67380716-3A92-4FBC-ACD0-DB779597E140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67380716-3A92-4FBC-ACD0-DB779597E140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54651684-8E7B-4DAB-8890-058D0CC5CAE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54651684-8E7B-4DAB-8890-058D0CC5CAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54651684-8E7B-4DAB-8890-058D0CC5CAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54651684-8E7B-4DAB-8890-058D0CC5CAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
